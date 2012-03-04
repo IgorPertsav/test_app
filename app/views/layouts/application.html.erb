@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <%= csrf_meta_tag %>
+  <%= render 'layouts/stylesheets' %>
+</head>
+<body>
+<% if !notice.nil? %>
+    <p class="notice"><%= notice %></p>
+<% end %>
+<% if !notice.nil? %>
+    <p class="alert"><%= alert %></p>   .
+<% end %>
+<div class="container">
+    <%= render 'layouts/navigator' %>
+  <section class="round">
+    <%= yield %>
+  </section>
+    <%= render 'layouts/footer' %>
+  <%= debug(params) if Rails.env.development? %>
+</div>
+</body>
+</html>
