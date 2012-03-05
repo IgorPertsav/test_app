@@ -4,14 +4,9 @@
   <title><%= title %></title>
   <%= csrf_meta_tag %>
   <%= render 'layouts/stylesheets' %>
+  <%= javascript_include_tag "application" %>
 </head>
 <body>
-<% if !notice.nil? %>
-    <p class="notice"><%= notice %></p>
-<% end %>
-<% if !notice.nil? %>
-    <p class="alert"><%= alert %></p>   .
-<% end %>
 <div class="container">
     <%= render 'layouts/navigator' %>
   <section class="round">

@@ -7,6 +7,7 @@ gem 'rails', '3.2.1'
 
 gem 'sqlite3'
 gem 'gravatar_image_tag'
+gem 'will_paginate', '3.0.3'
 
 
 # Gems used only for assets and not required
@@ -23,6 +24,7 @@ end
 
 group :development do
   gem 'rspec-rails'
+  gem 'faker', '0.3.1'
 end
 
 group :test do
