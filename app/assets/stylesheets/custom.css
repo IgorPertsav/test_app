@@ -60,6 +60,26 @@ a.signup_button {
         -webkit-border-radius: 10px;
         border-radius:         10px;
     }
+
+    #links {
+        background: #ffffff;
+        text-align: right;
+        float: right;
+        height: 20px;
+    }
+
+    .link ul{
+        display: inline;
+        padding: 0;
+        margin: 0;
+    }
+
+    .link li
+    {
+        padding-left: 10px;
+        display: inline-block;
+    }
+
     footer {
         text-align: center;
         margin-top: 10px;
