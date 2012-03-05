@@ -6,6 +6,10 @@ TestApp::Application.routes.draw do
   get "pages/home"
 
   get "pages/about"
+
+  #get "users/new"
+
+  #get "users/show"
   match '/about', :to => 'pages#about'
   match '/contact', :to => 'pages#contact'
   match '/help', :to => 'pages#help'

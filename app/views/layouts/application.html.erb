@@ -15,6 +15,9 @@
 <div class="container">
     <%= render 'layouts/navigator' %>
   <section class="round">
+    <% flash.each do |key, value| %>
+        <div class="flash <%= key %>"><%= value %></div>
+    <% end %>
     <%= yield %>
   </section>
     <%= render 'layouts/footer' %>
