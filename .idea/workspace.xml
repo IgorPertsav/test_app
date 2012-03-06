@@ -34,7 +34,7 @@
       <file leaf-file-name="production.log" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/production.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="532" column="52" selection-start="23347" selection-end="23347" vertical-scroll-proportion="0.0">
+            <state line="606" column="52" selection-start="28549" selection-end="28549" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file leaf-file-name="application_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="28" selection-end="28" vertical-scroll-proportion="0.056603774">
+            <state line="6" column="5" selection-start="98" selection-end="98" vertical-scroll-proportion="0.16981132">
               <folding />
             </state>
           </provider>
@@ -79,7 +79,7 @@
       <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="2" selection-start="107" selection-end="150" vertical-scroll-proportion="0.0">
+            <state line="3" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -559,7 +559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log/production.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="532" column="52" selection-start="23347" selection-end="23347" vertical-scroll-proportion="0.0">
+        <state line="606" column="52" selection-start="28549" selection-end="28549" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -594,14 +594,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="2" selection-start="107" selection-end="150" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="28" selection-end="28" vertical-scroll-proportion="0.056603774">
+        <state line="6" column="5" selection-start="98" selection-end="98" vertical-scroll-proportion="0.16981132">
           <folding />
         </state>
       </provider>

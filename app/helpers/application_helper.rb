@@ -1,6 +1,10 @@
 module ApplicationHelper
 
-  include SessionsHelper
+  #include SessionsHelper
+
+  def signed_in?
+    !current_user.nil?
+  end
 
   def logo
     image_tag("logo.png", :alt => "Sample App", :class => "round")
