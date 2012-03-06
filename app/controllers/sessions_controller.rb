@@ -1,6 +1,6 @@
 class SessionsController < ApplicationController
 
-  #include SessionsHelper
+  include SessionsHelper
 
   def new
     @title = "Sign in"

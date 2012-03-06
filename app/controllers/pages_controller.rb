@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  #include SessionsHelper
+  include SessionsHelper
 
   def home
     @title = "Home"
