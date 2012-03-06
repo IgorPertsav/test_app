@@ -59,7 +59,7 @@ TestApp::Application.configure do
   config.i18n.fallbacks = true
 
   # Send deprecation notices to registered listeners
-  config.active_support.silenced = true
+  config.active_support.silenced = :notice
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)

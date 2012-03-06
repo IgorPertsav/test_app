@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
 
+  include SessionsHelper
+
   def home
     @title = "Home"
     if signed_in?
