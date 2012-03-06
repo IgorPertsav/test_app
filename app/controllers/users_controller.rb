@@ -1,7 +1,5 @@
 class UsersController < ApplicationController
 
-  include SessionsHelper
-
   before_filter :authenticate, :only => [:index, :edit, :update]
   before_filter :correct_user, :only => [:edit, :update]
   before_filter :admin_user,   :only => :destroy
