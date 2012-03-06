@@ -4,6 +4,8 @@ class User < ActiveRecord::Base
 
   attr_accessor :password, :password_confirm
 
+  has_many :microposts, :dependent => :destroy
+
   validates :password, :confirmation => true, :presence => true, :length => {:within => 6..20}
   validates :name, :presence => true, :uniqueness => {:case_sensitive => false}, :length =>{:maximum => 20}
   validates :email, :presence => true, :uniqueness => {:case_sensitive => false}, :format => {:with => email_regex}
@@ -23,6 +25,11 @@ class User < ActiveRecord::Base
   def self.authenticate_with_salt(id, cookie_salt)
     user = find_by_id(id)
     (user && user.salt == cookie_salt) ? user : nil
+  end
+
+  def feed
+    # This is preliminary. See Глава 12 for the full implementation.
+    Micropost.where("user_id = ?", id)
   end
 
   private

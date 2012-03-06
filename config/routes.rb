@@ -4,6 +4,7 @@ TestApp::Application.routes.draw do
   resources :users
   resources :sessions, :only => [:new, :create, :destroy]
   resources :pages
+  resources :microposts, :only => [:create, :destroy]
 
   match '/about', :to => 'pages#about'
   match '/contact', :to => 'pages#contact'
