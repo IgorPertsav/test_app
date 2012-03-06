@@ -34,7 +34,7 @@
       <file leaf-file-name="production.log" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/log/production.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="448" column="52" selection-start="19775" selection-end="19775" vertical-scroll-proportion="0.0">
+            <state line="504" column="52" selection-start="22166" selection-end="22166" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -70,7 +70,7 @@
       <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="59" selection-start="883" selection-end="883" vertical-scroll-proportion="0.2264151">
+            <state line="20" column="51" selection-start="875" selection-end="875" vertical-scroll-proportion="0.2264151">
               <folding />
             </state>
           </provider>
@@ -502,7 +502,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log/production.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="448" column="52" selection-start="19775" selection-end="19775" vertical-scroll-proportion="0.0">
+        <state line="504" column="52" selection-start="22166" selection-end="22166" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -551,7 +551,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="59" selection-start="883" selection-end="883" vertical-scroll-proportion="0.2264151">
+        <state line="20" column="51" selection-start="875" selection-end="875" vertical-scroll-proportion="0.2264151">
           <folding />
         </state>
       </provider>
